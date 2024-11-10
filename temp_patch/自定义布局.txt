@@ -1,0 +1,73 @@
+diff --git a/_posts/aaa.md b/_posts/aaa.md
+new file mode 100644
+index 0000000..9009c2d
+--- /dev/null
++++ b/_posts/aaa.md
+@@ -0,0 +1,25 @@
++---
++title: aaa
++mathjax: false
++layout: dairy
++katex: false
++categories:
++  - 手记
++series:
++  - 2024日常记录
++abbrlink: f007732d
++date: 2024-08-23 22:11:48
++updated: 2024-08-23 22:11:48
++tags:
++top_img:
++description:
++---
++
++# 代发谁说的
++
++## fsdfs
++
++### fadsfasd
++
++
++
+diff --git a/_posts/aaa1.md b/_posts/aaa1.md
+new file mode 100644
+index 0000000..304efe3
+--- /dev/null
++++ b/_posts/aaa1.md
+@@ -0,0 +1,25 @@
++---
++title: aaa
++mathjax: false
++layout: post
++katex: false
++categories:
++  - 手记
++series:
++  - 2024日常记录
++abbrlink: c6f3b4b1
++date: 2024-08-23 22:11:48
++updated: 2024-08-23 22:11:48
++tags:
++top_img:
++description:
++---
++
++# 代发谁说的
++
++## fsdfs
++
++### fadsfasd
++
++
++
+diff --git a/_posts/日记/重新开始.md b/_posts/日记/重新开始.md
+index 7bdf01b..faff23d 100644
+--- a/_posts/日记/重新开始.md
++++ b/_posts/日记/重新开始.md
+@@ -1,5 +1,6 @@
+ ---
+ title: 重新开始
++layout: dairy
+ categories:
+   - 手记
+ series:
