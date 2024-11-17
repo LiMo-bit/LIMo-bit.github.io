@@ -1,0 +1,16 @@
+# source
+
+> 整这个的目的是为了存档博客内容源文件
+
+## master
+
+> git submodule add https://gitee.com/ITY996/content.git source
+> 2024.4.10
+
+## rule
+
+* 一个系列是一个文件夹，共用一个image文件夹存放图片
+* 所有的代码必须自己手敲，尽量少使用图片
+* 上传图片picgo以`E:\blog`为root_path
+* 所有博客图片放到
+
