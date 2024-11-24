@@ -1,4 +1,4 @@
-# source
+# [2410. 运动员和训练师的最大匹配数 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers/description/)source
 
 > 整这个的目的是为了存档博客内容源文件
 
@@ -13,4 +13,25 @@
 * 所有的代码必须自己手敲，尽量少使用图片
 * 上传图片picgo以`E:\blog`为root_path
 * 所有博客图片放到
+
+# 常用标签
+
+## 选项卡标签
+
+```
+{% tabs layout %}
+<!-- tab pug文件内容-->
+
+<!-- endtab -->
+<!-- tab 实现效果-->
+
+<!-- endtab -->
+{% endtabs %}
+```
+
+## 文章引用
+
+```
+{% post_link 'show/hexo/hexo——隐藏文章不在首页显示' %}
+```
 
