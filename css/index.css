@@ -4034,6 +4034,152 @@ figure.highlight pre .javascript .function {
 #nav .site-page:not(.child):hover:after {
   width: 100%;
 }
+.innei-clear {
+  clear: both;
+}
+.innei-signature {
+  float: right;
+}
+.innei-signature path {
+  stroke-dasharray: 2400;
+  stroke-dashoffset: 2400;
+  fill: transparent;
+  -webkit-animation: drawSignature 5s linear infinite both;
+  -moz-animation: drawSignature 5s linear infinite both;
+  -o-animation: drawSignature 5s linear infinite both;
+  -ms-animation: drawSignature 5s linear infinite both;
+  animation: drawSignature 5s linear infinite both;
+  stroke-width: 1px;
+  stroke: #000;
+}
+@-moz-keyframes drawSignature {
+  0% {
+    stroke-dashoffset: 2400;
+  }
+  15% {
+    fill: transparent;
+  }
+  35%, 75% {
+    stroke-dashoffset: 0;
+    fill: #000;
+  }
+  90%, 100% {
+    stroke-dashoffset: 2400;
+    fill: transparent;
+  }
+}
+@-webkit-keyframes drawSignature {
+  0% {
+    stroke-dashoffset: 2400;
+  }
+  15% {
+    fill: transparent;
+  }
+  35%, 75% {
+    stroke-dashoffset: 0;
+    fill: #000;
+  }
+  90%, 100% {
+    stroke-dashoffset: 2400;
+    fill: transparent;
+  }
+}
+@-o-keyframes drawSignature {
+  0% {
+    stroke-dashoffset: 2400;
+  }
+  15% {
+    fill: transparent;
+  }
+  35%, 75% {
+    stroke-dashoffset: 0;
+    fill: #000;
+  }
+  90%, 100% {
+    stroke-dashoffset: 2400;
+    fill: transparent;
+  }
+}
+@keyframes drawSignature {
+  0% {
+    stroke-dashoffset: 2400;
+  }
+  15% {
+    fill: transparent;
+  }
+  35%, 75% {
+    stroke-dashoffset: 0;
+    fill: #000;
+  }
+  90%, 100% {
+    stroke-dashoffset: 2400;
+    fill: transparent;
+  }
+}
+@-moz-keyframes wave {
+  0%, 100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+}
+@-webkit-keyframes wave {
+  0%, 100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+}
+@-o-keyframes wave {
+  0%, 100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+}
+@keyframes wave {
+  0%, 100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+}
 #pagination .pagination {
   margin-top: 20px;
   text-align: center;
@@ -4610,152 +4756,6 @@ figure.highlight pre .javascript .function {
   margin: 0;
   padding-left: 25px;
   list-style: none;
-}
-.innei-clear {
-  clear: both;
-}
-.innei-signature {
-  float: right;
-}
-.innei-signature path {
-  stroke-dasharray: 2400;
-  stroke-dashoffset: 2400;
-  fill: transparent;
-  -webkit-animation: drawSignature 5s linear infinite both;
-  -moz-animation: drawSignature 5s linear infinite both;
-  -o-animation: drawSignature 5s linear infinite both;
-  -ms-animation: drawSignature 5s linear infinite both;
-  animation: drawSignature 5s linear infinite both;
-  stroke-width: 1px;
-  stroke: #000;
-}
-@-moz-keyframes drawSignature {
-  0% {
-    stroke-dashoffset: 2400;
-  }
-  15% {
-    fill: transparent;
-  }
-  35%, 75% {
-    stroke-dashoffset: 0;
-    fill: #000;
-  }
-  90%, 100% {
-    stroke-dashoffset: 2400;
-    fill: transparent;
-  }
-}
-@-webkit-keyframes drawSignature {
-  0% {
-    stroke-dashoffset: 2400;
-  }
-  15% {
-    fill: transparent;
-  }
-  35%, 75% {
-    stroke-dashoffset: 0;
-    fill: #000;
-  }
-  90%, 100% {
-    stroke-dashoffset: 2400;
-    fill: transparent;
-  }
-}
-@-o-keyframes drawSignature {
-  0% {
-    stroke-dashoffset: 2400;
-  }
-  15% {
-    fill: transparent;
-  }
-  35%, 75% {
-    stroke-dashoffset: 0;
-    fill: #000;
-  }
-  90%, 100% {
-    stroke-dashoffset: 2400;
-    fill: transparent;
-  }
-}
-@keyframes drawSignature {
-  0% {
-    stroke-dashoffset: 2400;
-  }
-  15% {
-    fill: transparent;
-  }
-  35%, 75% {
-    stroke-dashoffset: 0;
-    fill: #000;
-  }
-  90%, 100% {
-    stroke-dashoffset: 2400;
-    fill: transparent;
-  }
-}
-@-moz-keyframes wave {
-  0%, 100% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  50% {
-    -webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
-  }
-}
-@-webkit-keyframes wave {
-  0%, 100% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  50% {
-    -webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
-  }
-}
-@-o-keyframes wave {
-  0%, 100% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  50% {
-    -webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
-  }
-}
-@keyframes wave {
-  0%, 100% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  50% {
-    -webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
-  }
 }
 #vcomment {
   font-size: 1.1em;
