@@ -4352,13 +4352,16 @@ figure.highlight pre .javascript .function {
   margin: 20px 0;
 }
 #article-container.diary-content {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: handwriting, SimSun;
 }
 #article-container.diary-content blockquote + p:first-letter,
 #article-container.diary-content > p:first-child:first-letter {
   font-size: 4em;
   font-weight: bold;
   margin-right: 0.2em;
+}
+#article-container.diary-content p {
+  text-indent: 2em;
 }
 #post .tag_share:after {
   display: block;
@@ -6620,7 +6623,20 @@ blockquote.pullquote.right {
 }
 @font-face {
     font-family: ZhuZiAWan;
-    src: url(https://npm.elemecdn.com/ethan4116-blog/lib/font/ZhuZiAWan.ttf);
+    /* src: url(https://npm.elemecdn.com/ethan4116-blog/lib/font/ZhuZiAWan.ttf); */
     /* src: url('/fonts/ZhuZiAWan/ZhuZiAWan.ttf') format("truetype");   */
-    font-display: swap
+    src: url('/fonts/ZhuZiAWan/ZhuZiAWan.woff2') format('woff2'),
+        url('/fonts/ZhuZiAWan/ZhuZiAWan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'handwriting';
+    src: url('/fonts/handwriting/AaWDXDNFANNon-CommercialUse.woff2') format('woff2'),
+        url('/fonts/handwriting/AaWDXDNFANNon-CommercialUse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
